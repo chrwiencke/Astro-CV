@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../layouts/navbar.astro';
+import Card from '../components/card.astro';
+---
+
+<Layout title="Tech Stack">
+		<Nav />
+		<div class="flex flex-wrap gap-4 place-content-start m-5">
+			<Card 
+			year=""
+			title="Astro"
+			description="The web framework for content-driven websites"
+			/>
+			<Card 
+			year=""
+			title="Tailwind CSS"
+			description="Rapidly build modern websites without ever leaving your HTML."
+			/>
+			<Card 
+			year=""
+			title="Daisy UI"
+			description="The most popular component library for Tailwind CSS"
+			/>
+			<Card 
+			year=""
+			title="Cloudflare"
+			description="DNS, Pages, Pages Functions"
+			/>
+	
+		</div>
+	</Layout>
