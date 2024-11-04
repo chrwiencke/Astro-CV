@@ -17,6 +17,9 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<style>
+			body {font-family: 'Helvetica', 'Arial', sans-serif;}
+		</style>		
 	</head>
 	<body>
 		<slot />
