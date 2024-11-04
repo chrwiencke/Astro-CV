@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../layouts/navbar.astro';
+import Card from '../components/card.astro';
+---
+
+<Layout title="Utdanning">
+		<Nav />
+		<div class="flex flex-wrap gap-4 place-content-start m-5">
+			<Card 
+			year="2022-2023"
+			title="Programmering"
+			description="Valgfag Programmering i 10ende klasse"
+			/>
+			<Card 
+			year="2023-2024"
+			title="Informasjons Teknologi og Medie Produksjon"
+			description="IM ved Bleiker VGS"
+			/>
+			<Card 
+			year="2024-2025"
+			title="Informasjons Teknologi"
+			description="IT ved Bleiker VGS"
+			/>
+			<Card 
+			year="2024-2025"
+			title="Praksisplass"
+			description="Praksisplass hos Advania"
+			/>
+	
+		</div>
+	</Layout>

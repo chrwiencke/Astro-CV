@@ -1,0 +1,27 @@
+---
+
+import Nav from '../components/navbutton.astro';
+import '../styles/global.css';
+
+---
+
+<main>
+    <ul role="list" class="flex flex-wrap pt-5 justify-center">
+        <Nav
+            page="https://pludo.org/"
+            name="Prosjekter"
+        />
+        <Nav
+            page="/utdanning"
+            name="Utdanning"
+        />
+        <Nav
+            page="/erfaring"
+            name="Erfaring"
+        />
+        <Nav
+            page="/kontakt"
+            name="Kontakt"
+        />
+    </ul>
+</main>

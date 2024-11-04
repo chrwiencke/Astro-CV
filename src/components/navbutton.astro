@@ -1,0 +1,16 @@
+---
+interface Props {
+	name: string;
+	page: string;
+}
+
+const { page, name } = Astro.props;
+---
+
+<li class="dark:text-white m-4">
+	<a href={page}>
+		<h2 class="dark:text-white p-3 border rounded-xl border-neutral-700 dark:border-white">
+			{name}
+		</h2>
+	</a>
+</li>
