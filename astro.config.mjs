@@ -13,6 +13,8 @@ export default defineConfig({
       enabled: true
     }
   }),
+  
+  prefetch: true,
 
   integrations: [tailwind()]
 });
