@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../layouts/navbar.astro';
+import Card from '../components/Teknologier.astro';
+---
+
+<Layout title="Teknologier">
+    <Nav />
+    <div class="flex flex-wrap gap-4 place-content-start m-5">
+        <Card 
+        title="Javascript"
+        description="NodeJS, ExpressJS, TypeScript, RESTful API"
+        />
+        <Card 
+        title="MongoDB"
+        description="Database design, CRUD operations, Mongoose, Atlas"
+        />
+        <Card 
+        title="Astro"
+        description="Static site generation, Component development, Content collections"
+        />
+        <Card 
+        title="Linux"
+        description="Ubuntu, Debian, Shell scripting"
+        />
+        <Card 
+        title="Git"
+        description="Version control, Branching, Merging"
+        />
+        <Card 
+        title="Bash"
+        description="Shell scripting, Automation"
+        />
+        <Card 
+        title="Ansible"
+        description="Infrastructure as Code, Playbooks, Automation"
+        />
+        <Card 
+        title="Cloudflare"
+        description="Workers, Pages, DNS, WAF, Zero Trust, KV, R2 Storage, Analytics"
+        />
+        <Card 
+        title="Docker"
+        description="Containerization, Docker Compose, Image building, Container orchestration"
+        />
+        <Card 
+        title="Kubernetes"
+        description="Container orchestration, Pod management, Services, Deployments"
+        />
+    </div>
+</Layout>
